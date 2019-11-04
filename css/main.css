@@ -12,3 +12,23 @@
 #right-eye {
   animation: glancing 3s infinite forwards;
 }
+
+@keyframes glancing {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-4px);
+  }
+
+  80% {
+    transform: translateX(4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
